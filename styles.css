@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Basic CSS for styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(175, 143, 111); /* Background color */
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgb(169, 144, 126); /* Border color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(103, 93, 80); /* Text color */
+}
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.coffee-bean {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+.recipe {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgb(171, 196, 170); /* Recipe background color */
+    border: 1px solid rgb(169, 144, 126); /* Border color */
+    border-radius: 8px;
+}
+.recipe h2 {
+    color: rgb(103, 93, 80); /* Text color */
+    margin-bottom: 10px;
+}
+.recipe p, .recipe ul, .recipe ol {
+    color: rgb(103, 93, 80); /* Text color */
+}
+.qr-code {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .recipe {
+        padding: 15px;
+    }
+    .recipe h2 {
+        font-size: 20px;
+    }
+    .coffee-bean {
+        width: 80px; /* Smaller size for smaller screens */
+    }
+    .qr-code img {
+        width: 100px; /* Adjust QR code size */
+    }
+}
